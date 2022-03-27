@@ -152,21 +152,25 @@
 #intro a:link {
     text-decoration: none;
     color: #ffaaf8;;
+    cursor: pointer;
   }
   
   /* visited link */
 #intro a:visited {
     color: grey;
+    cursor: pointer;
   }
   
   /* mouse over link */
 #intro a:hover {
     color: black;
+    cursor: pointer;
   }
   
   /* selected link */
 #intro a:active {
     color:#ffaaf8;
+    cursor: pointer;
   }
 
 /* Image Gallery */
@@ -206,11 +210,13 @@ div.gallery {
 .white-footer a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 .white-footer a:hover {
     text-decoration: underline;
     color: #ffaaf8;
+    cursor: pointer;
 }
 
   /* Pink Footer */
@@ -235,9 +241,11 @@ div.gallery {
 .pink-footer a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 .pink-footer a:hover {
     text-decoration: underline;
     color: white;
+    cursor: pointer;
 }
